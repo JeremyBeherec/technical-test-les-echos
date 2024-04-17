@@ -1,0 +1,26 @@
+.container {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.text-with-border {
+  display: inline-block;
+  position: relative;
+  height: 150%;
+}
+
+.text-with-border::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background-color: var(--accent-main);
+  border-radius: 6px;
+}

@@ -1,0 +1,17 @@
+.container {
+  width: 95%;
+}
+
+/* desktop */
+@media (min-width: 1201px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/* desktop */
+@media (min-width: 1901px) {
+  .container {
+    width: 60%;
+  }
+}
